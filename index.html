@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Test Voice Recorder</title>
+</head>
+
+<body>
+    <div id="micContainer">
+        <button id="micButton">Mic: Start Recording</button>
+    </div>
+    <audio class="playback" controls></audio>
+
+    <div id="speechToTextContainer">
+        <button id="toggleSpeechToTextButton">SpeechToText - Start listening</button>
+    </div>
+
+    <fieldset>
+        <legend>Current State</legend>
+        <div id="currentState"></div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Speech Regognition Result</legend>
+        <div id="speechRecognitionResult"></div>
+    </fieldset>
+    <br>
+    <div id="speechRecognitionEnded"></div>
+    <br>
+    <fieldset>
+        <legend>Pending Transaction Details</legend>
+        <div id="pendingTransactionDetails"></div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Stored Transaction List</legend>
+        <div id="storedTransactionList"></div>
+    </fieldset>
+
+</body>
+
+</html>
